@@ -1,0 +1,74 @@
+/*Website bg and overall style*/
+body {
+    background-image: url(bg_images/Anime-Girl-Wallpapers-HD-For-Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Randomizer main body style*/
+#ran_main_body {
+    width: 1000px;
+    background-color: #ffffff90;
+    border: 2px solid black;
+}
+/*Randomizer title style*/
+#ran-title {
+    margin-top: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Randomizer "inline card system" style*/
+.row {
+    width: 600px;
+}
+/*"Red" card style*/
+#cat_1 {
+    border: 1px solid black;
+}
+/*"Red" card header style*/
+#cat_1-head {
+    background-image: url(bg_images/red_butterfly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*"Red" card header text style*/
+#cat_1-headtext {
+    color: white;
+    font-weight: bold;
+}
+/*"Yellow" card style*/
+#cat_2 {
+    border: 1px solid black;
+}
+/*"Yellow" card header style*/
+#cat_2-head {
+    background-image: url(bg_images/yellow_butterfly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*"Yellow" card header text style*/
+#cat_2-headtext {
+    font-weight: bold;
+}
+/*"White" card style*/
+#cat_3 {
+    border: 1px solid black;
+}
+/*"White" card header style*/
+#cat_3-head {
+    background-image: url(bg_images/white_butterfly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*"White" card header text style*/
+#cat_3-headtext {
+    color:white;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.boldtext {
+    font-weight: bold;
+}
+.datatext {
+    font-style: italic;
+}
